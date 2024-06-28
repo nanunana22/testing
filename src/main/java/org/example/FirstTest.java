@@ -25,4 +25,7 @@ public class FirstTest {
     public static int addition(int a, int b) {
         return a + b;
     }
+    public static boolean is_even(int n) {
+        return n % 2 == 0;
+    }
 }
