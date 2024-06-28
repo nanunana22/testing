@@ -66,5 +66,17 @@ class FirstTestTest{
         assertEquals("HELLO",result);
     }
 
+    @Test
+    public void isPositiveTest_when1thenreturntrue() {
+        //Given
+        int a = 1;
+
+        //When
+        boolean result = isPositive(a);
+
+        //Then
+        assertTrue(result);
+    }
+
 
 }

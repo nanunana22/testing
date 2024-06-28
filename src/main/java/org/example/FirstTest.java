@@ -35,4 +35,8 @@ public class FirstTest {
     public static String toUpperCase(String s) {
         return s.toUpperCase();
     }
+
+    public static boolean isPositive(int n) {
+        return n > 0;
+    }
 }
