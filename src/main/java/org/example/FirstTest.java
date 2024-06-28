@@ -4,7 +4,7 @@
 
 //Schreiben Sie einen Test für eine Methode, die prüft, ob eine gegebene Zahl gerade ist.
 
-//Schreiben Sie einen Test für eine Methode, die das Produkt zweier ganzer Zahlen errechnet.
+//4 Schreiben Sie einen Test für eine Methode, die das Produkt zweier ganzer Zahlen errechnet.
 
 //Schreiben Sie einen Test für eine Methode, die eine gegebene Zeichenkette in Großbuchstaben umwandelt.
 
@@ -27,5 +27,8 @@ public class FirstTest {
     }
     public static boolean is_even(int n) {
         return n % 2 == 0;
+    }
+    public static int multiplication(int a, int b) {
+        return a * b;
     }
 }

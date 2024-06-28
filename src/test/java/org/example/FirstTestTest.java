@@ -2,8 +2,7 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
-import static org.example.FirstTest.addition;
-import static org.example.FirstTest.is_even;
+import static org.example.FirstTest.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FirstTestTest{
@@ -41,8 +40,20 @@ class FirstTestTest{
 
         //Then
         assertTrue(result);
-
     }
+    @Test
+    public void multiplicationTest_when3and3thenreturn9() {
+        //Given
+        int a = 3;
+        int b = 3;
+
+        //When
+        int result = multiplication(a,b);
+
+        //Then
+        assertEquals(9,result);
+    }
+
 
 
 }
