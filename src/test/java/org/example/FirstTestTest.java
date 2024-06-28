@@ -54,6 +54,17 @@ class FirstTestTest{
         assertEquals(9,result);
     }
 
+    @Test
+    public void toUpperCaseTest_whenhellothenreturnHELLO() {
+        //Given
+        String a = "hello";
+
+        //When
+        String result = toUpperCase(a);
+
+        //Then
+        assertEquals("HELLO",result);
+    }
 
 
 }

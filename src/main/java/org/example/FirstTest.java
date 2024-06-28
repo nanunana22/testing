@@ -31,4 +31,8 @@ public class FirstTest {
     public static int multiplication(int a, int b) {
         return a * b;
     }
+
+    public static String toUpperCase(String s) {
+        return s.toUpperCase();
+    }
 }
